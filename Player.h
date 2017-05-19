@@ -16,10 +16,10 @@ public:
 	Player(string name);
 	void setName(string name);
 	void setBattingAverage(int battingAverage);
-	int getPositionOnInning(int inning);
 	void setPositionOnInning(int position, int inning);
 	string getName();
 	int getBattingAverage();
+	int getPositionOnInning(int inning);
 };
 
 #endif
