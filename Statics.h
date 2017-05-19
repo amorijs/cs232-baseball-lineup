@@ -1,0 +1,12 @@
+#ifndef _STATICS
+#define _STATICS
+
+const int NUMOFPLAYERS = 12;
+const int NUMOFINNINGS = 5;
+const int NUMOFPOSITIONS = 11;
+const int NUMOFINFIELDPOSITIONS = 6;
+const int NUMOFOUTFIELDPOSITIONS = 4;
+const int NUMOFOUTSPERINNING = 2;
+const int NUMOFSPACESBETWEENCOLUMNS = 10;
+
+#endif
