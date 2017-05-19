@@ -16,6 +16,10 @@ void Player::setBattingAverage(int battingAverage) {
 	this->battingAverage = battingAverage;
 }
 
+void Player::setPositionOnInning(int position, int inning) {
+	positionOnInning[inning] = position;
+}
+
 string Player::getName() {
 	return name;
 }
@@ -27,11 +31,3 @@ int Player::getBattingAverage() {
 int Player::getPositionOnInning(int inning) {
 	return positionOnInning[inning];
 }
-
-void Player::setPositionOnInning(int position, int inning) {
-	positionOnInning[inning] = position;
-}
-
-
-
-
